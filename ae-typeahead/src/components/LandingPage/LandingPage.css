@@ -1,0 +1,55 @@
+/* color theme: [181823, 537FE7, C0EEF2, E9F8F9] */
+
+.box {
+    border-radius: 5px;
+}
+.p-3 {
+    padding: 20px;
+}
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+.branding {
+    background-color: #537FE7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+}
+.demo {
+    flex: 1;
+    overflow: auto;
+}
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+.snippet {
+    margin: 40px 0 0;
+}
+.preview {
+    margin: 20px 0;
+    border: 1px solid #eee;
+}
+.codebox {
+    background-color: #181823;
+    color: #fff;
+    overflow: auto;
+}
+@media (orientation: portrait) {
+    .main-container {
+        flex-direction: column;
+    }
+    .branding {
+        width: 100%;
+        writing-mode: initial;
+        transform: none;
+    }
+    .demo {
+        overflow: visible;
+    } 
+}

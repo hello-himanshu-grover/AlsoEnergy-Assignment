@@ -1,0 +1,7 @@
+.StyledPopover {
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    top: 100% !important;
+    width: 100% !important;
+}

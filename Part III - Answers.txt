@@ -1,0 +1,74 @@
+Answer #1:
+There are several ways to prevent unnecessary re-renders in React. 
+Here are some examples:
+1. useMemo()
+It is commonly used to prevent child component's re-renders when a state/props got changed in parent node(s).
+
+3. useRef()
+It is commonly used to bind the component/input and get the value of that component/input.
+
+-----------------------------------------------
+
+Answer #2:
+Context:
+Context is the most popular way to pass data through the component tree without having to pass props down manually at every level.
+
+Hooks:
+Hooks are functions that let you “hook into” React state and lifecycle features from function components.
+Here are some practical uses:
+1. useState()
+It is used to decrlare a block level variable that extends the React's functionality of rendering when needed.
+
+2. useEffect()
+It is used to bind the events of a component's lifecycle events such as components rendered, a state got changed and etc.
+
+-----------------------------------------------
+
+Answer #3:
+There are several ways to prevent to caching the result of an API endpoint. 
+Here are some examples:
+1. Rest APIs native methods.
+2. Stroing in localStorage.
+3. Storing in state and objects.
+4. Redis.
+
+In Part I, I have used debounce to prevent frequent http request. For caching, I have used Rest API's & browser's native methods, because it was easy to implement and browsers handles them well too.
+
+-----------------------------------------------
+
+Answer #4:
+To prevent XSS:
+We should validate the data on every entry options such as input, textarea, API and etc. And, should make sure that only allowed data should reach to the server, and should encode outputs rendering.
+To prevent CSRF:
+To prevent CSRF is to use a token that is associated with a particular user and that is sent as a hidden value in every state-changing form. 
+
+-----------------------------------------------
+
+Answer #5:
+Session cookies can be hacked. We should always take care that how we're implmenting, using, explosing them. We should briefly signed client before sessioning.
+
+-----------------------------------------------
+
+Answer #6:
+Advantages of using JWT:
+- Less dependency on DB.
+- A standardized way to encode and decode user info.
+- More secure because it is signed.
+- 
+Disadvantages of using JWT:
+- Hard to revoke the access.
+- Crypto dependent.
+- One secret key possible only.
+
+-----------------------------------------------
+
+Answer #7:
+Updates that I liked in web/browsers are:
+1. AI revolution.
+
+Updates that I liked in React are:
+1.useTransition() hook.
+2. Concurrency.
+
+Updates that I liked in NodeJs are:
+1. Test coverage of V8.

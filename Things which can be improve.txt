@@ -1,0 +1,11 @@
+# Test cases:
+As per the availability of time, I have wrote two test cases, But I demonstrate two ways to ensure the rendering of components.
+
+# Seperate demo app:
+The component's app can be published as npm package by setting "private" as false in package.json, and by modifying the index.js files to export the desired components isntead of rendering them in index.html file.
+
+# Web accessiblility:
+I have implemented many accessiblility stuff like keyboard navigation, readability, enough click area and etc. There are still room for improvements such as verbal content, tooltips and etc.
+
+# Implementation of API and caching.
+Due to the lack of time, I have used debounce to prevent frequent http request. For caching, I have used Rest API's & browser's native methods, because it was easy to implement and browsers handles them well too.
